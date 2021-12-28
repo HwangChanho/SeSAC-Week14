@@ -9,23 +9,50 @@
 /* Begin PBXBuildFile section */
 		12562FDB2779480A00BFDD1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FDA2779480A00BFDD1A /* AppDelegate.swift */; };
 		12562FDD2779480A00BFDD1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FDC2779480A00BFDD1A /* SceneDelegate.swift */; };
-		12562FDF2779480A00BFDD1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FDE2779480A00BFDD1A /* ViewController.swift */; };
-		12562FE22779480A00BFDD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12562FE02779480A00BFDD1A /* Main.storyboard */; };
+		12562FDF2779480A00BFDD1A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FDE2779480A00BFDD1A /* SignInViewController.swift */; };
 		12562FE52779480A00BFDD1A /* SeSAC_Week14.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12562FE32779480A00BFDD1A /* SeSAC_Week14.xcdatamodeld */; };
 		12562FE72779480A00BFDD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12562FE62779480A00BFDD1A /* Assets.xcassets */; };
 		12562FEA2779480A00BFDD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12562FE82779480A00BFDD1A /* LaunchScreen.storyboard */; };
+		12562FF227794BC400BFDD1A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FF127794BC400BFDD1A /* SignInView.swift */; };
+		12562FF527794C1900BFDD1A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 12562FF427794C1900BFDD1A /* SnapKit */; };
+		12562FF727795B3100BFDD1A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FF627795B3100BFDD1A /* MainViewController.swift */; };
+		12562FFC277960DA00BFDD1A /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FFB277960DA00BFDD1A /* SignInViewModel.swift */; };
+		12562FFE2779634300BFDD1A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FFD2779634300BFDD1A /* Observable.swift */; };
+		1256300027796C0400BFDD1A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12562FFF27796C0400BFDD1A /* APIService.swift */; };
+		1256300227796C4300BFDD1A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256300127796C4300BFDD1A /* User.swift */; };
+		125CA9F7277A913800923022 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CA9F6277A913800923022 /* LottoViewController.swift */; };
+		125CA9F9277A920E00923022 /* LottoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CA9F8277A920E00923022 /* LottoView.swift */; };
+		125CA9FB277A94FC00923022 /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CA9FA277A94FC00923022 /* Lotto.swift */; };
+		125CA9FD277A962000923022 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CA9FC277A962000923022 /* LottoViewModel.swift */; };
+		125CAA02277AA2A800923022 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA01277AA2A800923022 /* Constant.swift */; };
+		125CAA04277AA5C900923022 /* TMDB_Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA03277AA5C900923022 /* TMDB_Person.swift */; };
+		125CAA08277AAA8E00923022 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA07277AAA8E00923022 /* PersonViewModel.swift */; };
+		125CAA0A277AAB7A00923022 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA09277AAB7A00923022 /* PersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12562FD72779480A00BFDD1A /* SeSAC-Week14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC-Week14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12562FDA2779480A00BFDD1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12562FDC2779480A00BFDD1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12562FDE2779480A00BFDD1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12562FE12779480A00BFDD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12562FDE2779480A00BFDD1A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		12562FE42779480A00BFDD1A /* SeSAC_Week14.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeSAC_Week14.xcdatamodel; sourceTree = "<group>"; };
 		12562FE62779480A00BFDD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12562FE92779480A00BFDD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12562FEB2779480A00BFDD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12562FF127794BC400BFDD1A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		12562FF627795B3100BFDD1A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12562FFB277960DA00BFDD1A /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		12562FFD2779634300BFDD1A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		12562FFF27796C0400BFDD1A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1256300127796C4300BFDD1A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		125CA9F6277A913800923022 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		125CA9F8277A920E00923022 /* LottoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoView.swift; sourceTree = "<group>"; };
+		125CA9FA277A94FC00923022 /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
+		125CA9FC277A962000923022 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		125CAA01277AA2A800923022 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		125CAA03277AA5C900923022 /* TMDB_Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_Person.swift; sourceTree = "<group>"; };
+		125CAA07277AAA8E00923022 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		125CAA09277AAB7A00923022 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12562FF527794C1900BFDD1A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +86,109 @@
 		12562FD92779480A00BFDD1A /* SeSAC-Week14 */ = {
 			isa = PBXGroup;
 			children = (
+				125CA9F5277A912100923022 /* 12.28 */,
+				125CA9F42779F48300923022 /* 12.27_Assignment */,
+				12562FFD2779634300BFDD1A /* Observable.swift */,
+				1256300127796C4300BFDD1A /* User.swift */,
 				12562FDA2779480A00BFDD1A /* AppDelegate.swift */,
 				12562FDC2779480A00BFDD1A /* SceneDelegate.swift */,
-				12562FDE2779480A00BFDD1A /* ViewController.swift */,
-				12562FE02779480A00BFDD1A /* Main.storyboard */,
+				12562FDE2779480A00BFDD1A /* SignInViewController.swift */,
+				12562FF627795B3100BFDD1A /* MainViewController.swift */,
+				12562FF127794BC400BFDD1A /* SignInView.swift */,
+				12562FFB277960DA00BFDD1A /* SignInViewModel.swift */,
+				125CAA0D277AAF1700923022 /* API */,
 				12562FE62779480A00BFDD1A /* Assets.xcassets */,
 				12562FE82779480A00BFDD1A /* LaunchScreen.storyboard */,
 				12562FEB2779480A00BFDD1A /* Info.plist */,
 				12562FE32779480A00BFDD1A /* SeSAC_Week14.xcdatamodeld */,
 			);
 			path = "SeSAC-Week14";
+			sourceTree = "<group>";
+		};
+		125CA9F42779F48300923022 /* 12.27_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 12.27_Assignment;
+			sourceTree = "<group>";
+		};
+		125CA9F5277A912100923022 /* 12.28 */ = {
+			isa = PBXGroup;
+			children = (
+				125CAA05277AAA6E00923022 /* Person */,
+				125CAA06277AAA7F00923022 /* Lotto */,
+				125CAA01277AA2A800923022 /* Constant.swift */,
+			);
+			path = 12.28;
+			sourceTree = "<group>";
+		};
+		125CA9FE277A98E000923022 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				125CA9FC277A962000923022 /* LottoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		125CA9FF277A98EF00923022 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				125CA9F8277A920E00923022 /* LottoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		125CAA00277A98F500923022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				125CA9FA277A94FC00923022 /* Lotto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		125CAA05277AAA6E00923022 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				125CAA09277AAB7A00923022 /* PersonViewController.swift */,
+				125CAA0C277AABF500923022 /* Model */,
+				125CAA0B277AABEE00923022 /* ViewModel */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		125CAA06277AAA7F00923022 /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				125CA9F6277A913800923022 /* LottoViewController.swift */,
+				125CA9FF277A98EF00923022 /* View */,
+				125CAA00277A98F500923022 /* Model */,
+				125CA9FE277A98E000923022 /* ViewModel */,
+			);
+			path = Lotto;
+			sourceTree = "<group>";
+		};
+		125CAA0B277AABEE00923022 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				125CAA07277AAA8E00923022 /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		125CAA0C277AABF500923022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				125CAA03277AA5C900923022 /* TMDB_Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		125CAA0D277AAF1700923022 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12562FFF27796C0400BFDD1A /* APIService.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +207,9 @@
 			dependencies = (
 			);
 			name = "SeSAC-Week14";
+			packageProductDependencies = (
+				12562FF427794C1900BFDD1A /* SnapKit */,
+			);
 			productName = "SeSAC-Week14";
 			productReference = 12562FD72779480A00BFDD1A /* SeSAC-Week14.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 12562FCE2779480900BFDD1A;
+			packageReferences = (
+				12562FF327794C1900BFDD1A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 12562FD82779480A00BFDD1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +257,6 @@
 			files = (
 				12562FEA2779480A00BFDD1A /* LaunchScreen.storyboard in Resources */,
 				12562FE72779480A00BFDD1A /* Assets.xcassets in Resources */,
-				12562FE22779480A00BFDD1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +267,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12562FFE2779634300BFDD1A /* Observable.swift in Sources */,
+				125CA9FD277A962000923022 /* LottoViewModel.swift in Sources */,
+				125CAA02277AA2A800923022 /* Constant.swift in Sources */,
 				12562FE52779480A00BFDD1A /* SeSAC_Week14.xcdatamodeld in Sources */,
-				12562FDF2779480A00BFDD1A /* ViewController.swift in Sources */,
+				125CAA08277AAA8E00923022 /* PersonViewModel.swift in Sources */,
+				12562FFC277960DA00BFDD1A /* SignInViewModel.swift in Sources */,
+				12562FDF2779480A00BFDD1A /* SignInViewController.swift in Sources */,
+				125CAA0A277AAB7A00923022 /* PersonViewController.swift in Sources */,
+				125CA9FB277A94FC00923022 /* Lotto.swift in Sources */,
 				12562FDB2779480A00BFDD1A /* AppDelegate.swift in Sources */,
+				12562FF727795B3100BFDD1A /* MainViewController.swift in Sources */,
+				125CAA04277AA5C900923022 /* TMDB_Person.swift in Sources */,
 				12562FDD2779480A00BFDD1A /* SceneDelegate.swift in Sources */,
+				1256300027796C0400BFDD1A /* APIService.swift in Sources */,
+				1256300227796C4300BFDD1A /* User.swift in Sources */,
+				125CA9F7277A913800923022 /* LottoViewController.swift in Sources */,
+				12562FF227794BC400BFDD1A /* SignInView.swift in Sources */,
+				125CA9F9277A920E00923022 /* LottoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12562FE02779480A00BFDD1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12562FE12779480A00BFDD1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12562FE82779480A00BFDD1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +430,6 @@
 				INFOPLIST_FILE = "SeSAC-Week14/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +457,6 @@
 				INFOPLIST_FILE = "SeSAC-Week14/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12562FF327794C1900BFDD1A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12562FF427794C1900BFDD1A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12562FF327794C1900BFDD1A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		12562FE32779480A00BFDD1A /* SeSAC_Week14.xcdatamodeld */ = {
