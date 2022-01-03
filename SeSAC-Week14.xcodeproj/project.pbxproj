@@ -28,6 +28,7 @@
 		125CAA04277AA5C900923022 /* TMDB_Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA03277AA5C900923022 /* TMDB_Person.swift */; };
 		125CAA08277AAA8E00923022 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA07277AAA8E00923022 /* PersonViewModel.swift */; };
 		125CAA0A277AAB7A00923022 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CAA09277AAB7A00923022 /* PersonViewController.swift */; };
+		12B16AC2277BF0CE00BDEFCC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B16AC1277BF0CE00BDEFCC /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		125CAA03277AA5C900923022 /* TMDB_Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_Person.swift; sourceTree = "<group>"; };
 		125CAA07277AAA8E00923022 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 		125CAA09277AAB7A00923022 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		12B16AC1277BF0CE00BDEFCC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				125CA9F5277A912100923022 /* 12.28 */,
-				125CA9F42779F48300923022 /* 12.27_Assignment */,
 				12562FFD2779634300BFDD1A /* Observable.swift */,
 				1256300127796C4300BFDD1A /* User.swift */,
 				12562FDA2779480A00BFDD1A /* AppDelegate.swift */,
@@ -105,19 +106,13 @@
 			path = "SeSAC-Week14";
 			sourceTree = "<group>";
 		};
-		125CA9F42779F48300923022 /* 12.27_Assignment */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 12.27_Assignment;
-			sourceTree = "<group>";
-		};
 		125CA9F5277A912100923022 /* 12.28 */ = {
 			isa = PBXGroup;
 			children = (
+				125CAA01277AA2A800923022 /* Constant.swift */,
+				12B16AC1277BF0CE00BDEFCC /* Endpoint.swift */,
 				125CAA05277AAA6E00923022 /* Person */,
 				125CAA06277AAA7F00923022 /* Lotto */,
-				125CAA01277AA2A800923022 /* Constant.swift */,
 			);
 			path = 12.28;
 			sourceTree = "<group>";
@@ -279,6 +274,7 @@
 				12562FDB2779480A00BFDD1A /* AppDelegate.swift in Sources */,
 				12562FF727795B3100BFDD1A /* MainViewController.swift in Sources */,
 				125CAA04277AA5C900923022 /* TMDB_Person.swift in Sources */,
+				12B16AC2277BF0CE00BDEFCC /* Endpoint.swift in Sources */,
 				12562FDD2779480A00BFDD1A /* SceneDelegate.swift in Sources */,
 				1256300027796C0400BFDD1A /* APIService.swift in Sources */,
 				1256300227796C4300BFDD1A /* User.swift in Sources */,

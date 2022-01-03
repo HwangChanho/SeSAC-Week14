@@ -19,3 +19,4 @@ struct Constants {
         static let userInfo = "USER_INFO"
     }
 }
+

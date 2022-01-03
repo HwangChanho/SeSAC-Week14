@@ -16,42 +16,16 @@ enum APIError: Error {
 
 class APIService {
     static func login(identifier: String, password: String, completion: @escaping (User?, APIError?) -> Void) {
-        let url = URL(string: "http://test.monocoding.com/auth/local")!
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
         
-        //string -> data,
-        //dictionary -> JSONSerialization / Codable
-        request.httpBody = ("identifier=\(identifier)&password=\(password)").data(using: .utf8)
-        //    let body = ["identifier": identifier, "password": password]
+        var request = URLRequest(url: Endpoint.login.url)
+        request.httpMethod = Method.POST.rawValue
+        request.httpBody = ("identifier=\(identifier)&password=\(password)").data(using: .utf8, allowLossyConversion: false)
         
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            guard error == nil else {
-                print("error : ", error!)
-                DispatchQueue.main.async {
-                    completion(nil, .failed)
-                }
-                return
-            }
-            
-            if let response = response as? HTTPURLResponse, (200...299).contains(response.statusCode) {
-                print("response : ", response)
-            } else {
-                completion(nil, .invalidResponse)
-            }
-            
-            print("data : ", data)
-            
-            if let data = data, let user = try? JSONDecoder().decode(User.self, from: data) {
-                print("in : ", user)
-                DispatchQueue.main.async {
-                    completion(user, nil)
-                }
-            } else {
-                completion(nil, .invalidData)
-            }
-        }.resume()
+        print("request : ", request)
         
+        DispatchQueue.main.async {
+            URLSession.request(endpoint: request, completion: completion)
+        }
     }
     
     static func lotto(number: Int, completion: @escaping (Lotto?, APIError?) -> Void) {
