@@ -16,11 +16,7 @@ class PersonViewModel {
             guard let data = data else {
                 return
             }
-            
-            print("data : ", data)
-            
             self.person.value = data
-            
         }
     }
 }

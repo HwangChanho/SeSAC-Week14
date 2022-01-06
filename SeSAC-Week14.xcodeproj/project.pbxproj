@@ -93,10 +93,8 @@
 				1256300127796C4300BFDD1A /* User.swift */,
 				12562FDA2779480A00BFDD1A /* AppDelegate.swift */,
 				12562FDC2779480A00BFDD1A /* SceneDelegate.swift */,
-				12562FDE2779480A00BFDD1A /* SignInViewController.swift */,
+				12E078622782D7CE0084AEDE /* SignIn */,
 				12562FF627795B3100BFDD1A /* MainViewController.swift */,
-				12562FF127794BC400BFDD1A /* SignInView.swift */,
-				12562FFB277960DA00BFDD1A /* SignInViewModel.swift */,
 				125CAA0D277AAF1700923022 /* API */,
 				12562FE62779480A00BFDD1A /* Assets.xcassets */,
 				12562FE82779480A00BFDD1A /* LaunchScreen.storyboard */,
@@ -184,6 +182,16 @@
 				12562FFF27796C0400BFDD1A /* APIService.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		12E078622782D7CE0084AEDE /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				12562FDE2779480A00BFDD1A /* SignInViewController.swift */,
+				12562FF127794BC400BFDD1A /* SignInView.swift */,
+				12562FFB277960DA00BFDD1A /* SignInViewModel.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
